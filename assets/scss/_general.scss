@@ -1,0 +1,21 @@
+$accent : #E8C300;
+$kur : 'Kurale';
+$white_op : rgba(255, 255, 255, 0.5);
+
+@mixin bg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@mixin line {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 5px;
+    background: #e8c300;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
